@@ -71,7 +71,7 @@ if __name__ == '__main__':
         summary_file.write("Files containing keywords:\n\n")
         for file_path, keywords in results:
             summary_file.write(f"{file_path}:\n")
-            summary_file.write(f"  Keywords: {', '.join(keywords)}\n\n")
+            summary_file.write(f"  Keywords: {' | '.join(keywords)}\n\n")
     
     logger.info(f"Summary written to {summary_filename}")
 
