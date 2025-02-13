@@ -7,7 +7,7 @@ KEYWORDS = ["Agenda", "Agreements", "Articles", "Assessment", "Audit", "Bios", "
     "Request", "Resolutions", "Retreat", "Scanning", "Settlement", "Strategy", "Survey", "Update", "Webinar"]
 
 # Directory to scan (update to your local documents folder)
-FILE_ROOT = r'P:\ABIM Electronic File import\ABIM Governance\Ad Hoc Committee'
+FILE_ROOT = r'P:\ABIM Electronic File import\ABIM Governance\Agenda Books'
 
 # Logging level: 'DEBUG', 'INFO', 'WARNING', 'ERROR', or 'CRITICAL'
 LOG_LEVEL = 'INFO'
