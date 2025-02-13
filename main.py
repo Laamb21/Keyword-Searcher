@@ -83,7 +83,7 @@ if __name__ == '__main__':
         summary_file.write("Files Summary:\n\n")
         for file_path, outcome in results:
             summary_file.write(f"{file_path}:\n")
-            summary_file.write(f"  Result: {outcome}\n\n")
+            summary_file.write(f"  Keywords: {', '.join(keywords)}\n\n")
     
     logger.info(f"Summary written to {summary_filename}")
 
